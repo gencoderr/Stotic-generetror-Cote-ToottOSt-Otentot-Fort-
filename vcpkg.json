@@ -1,0 +1,33 @@
+{
+  "name": "tenacity",
+  "version": "1.4",
+  "description": "Tenacity is an easy-to-use, cross-platform multi-track audio editor/recorder for Windows, MacOS, GNU/Linux and other operating systems.",
+  "homepage": "https://tenacityaudio.org/",
+  "license": "GPL-2.0-or-later",
+  "supports": "!uwp",
+  "dependencies": [
+    "libsndfile",
+    {
+      "name": "lilv",
+      "platform": "!windows"
+    },
+    "libid3tag",
+    "libmad",
+    "libzip",
+    "twolame",
+    "soxr",
+    "soundtouch",
+    "libsbsms",
+    "portaudio",
+    "portmidi",
+    "portsmf",
+    "mp3lame",
+    "zlib",
+    "jsoncpp",
+    "vamp-sdk",
+    "expat",
+    "sqlite3",
+    "matroska",
+    "wxwidgets"
+  ]
+}
